@@ -128,6 +128,28 @@ instructor::~instructor(){};
 
 
 
+Course::Course(string Courscode,string Coursename,int maxStudents,Student *student, int CurrentStudents)
+{
+this->Courscode=Courscode;
+this->Coursename= Coursename;
+this->maxStudents=maxStudents;
+this ->CurrentStudents=CurrentStudents;
+ this-> student=student;
+
+};
+
+Course::~Course(){};
+void Course::addStudent(const Student & s){};
+void Course:: Displaycourseinfo(){};
+string Course:: getCoursecode(){return Courscode;};
+string Course:: getCoursename(){return Coursename;};
+int Course::getmaxstudents(){return maxStudents;};
+int Course:: getCurrentStudents(){return CurrentStudents;};
+void Course:: setCoursecoode(string Coursecode){Courscode=Courscode;};
+void Course:: setCoursename(string Coursename){Coursename=Coursename;};
+void Course:: setmaxstudents(int maxstudents){maxStudents=maxstudents;};
+void Course:: setCurrentstudents(int Currentstudents){CurrentStudents=Currentstudents;};
+
 
 
 
