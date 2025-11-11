@@ -9,7 +9,7 @@ using namespace std;
 
 
 class instructor:public Person
-{
+{ private:
 std:: string department;
  int experienceYears;
 public:
