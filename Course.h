@@ -22,7 +22,7 @@ public:
     Course()=default;
     Course(string Courscode,string Coursename,int maxStudents,Student *student, int CurrentStudents);
     ~Course();
-addStudent(const Student & s);
+void addStudent(const Student & s);
 void Displaycourseinfo();
   string getCoursecode();
     string getCoursename();
